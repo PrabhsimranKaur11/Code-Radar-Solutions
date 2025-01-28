@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
   int i,j,count=0;
-  scanf("%d",&a);
+  scanf("%d",&i);
   if(i<=1)
   {printf("Not Prime\n");}
 for (j=1;j<=i;j++)
@@ -11,7 +11,7 @@ for (j=1;j<=i;j++)
     }
 }
 if (count == 2){
-    printf("Prime");
+    printf("Prime\n");
 }
 else{printf("Not Prime");
 }
