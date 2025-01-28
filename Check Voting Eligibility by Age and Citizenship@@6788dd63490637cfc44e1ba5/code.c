@@ -5,4 +5,5 @@ int main(){
     if(a>=18 && b==1)
     {printf("Eligible");}
     return 0;
+    else{printf("Not");}
 }
