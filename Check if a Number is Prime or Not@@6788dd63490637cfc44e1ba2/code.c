@@ -14,5 +14,4 @@ if co ==2{
 }
 else{printf("Not Prime");
 }
-return 0;
 }
