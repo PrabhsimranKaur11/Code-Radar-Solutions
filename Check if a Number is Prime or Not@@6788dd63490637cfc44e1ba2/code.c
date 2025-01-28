@@ -9,7 +9,7 @@ for (j=1,j<=i;j++)
         count++;
     }
 }
-if (co == 2){
+if (count == 2){
     printf("Prime");
 }
 else{printf("Not Prime");
