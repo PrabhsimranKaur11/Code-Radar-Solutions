@@ -8,7 +8,6 @@ int main() {
     else if(c == '-'){printf("d",a-b);}
     else if(c == '*'){printf("%d",a*b);}
     else if(c == '/' && b!=0){printf("%d",a/b);}
-    if else(b==0){printf("Error");}
     else{printf("Error");}
     return 0;
 }
