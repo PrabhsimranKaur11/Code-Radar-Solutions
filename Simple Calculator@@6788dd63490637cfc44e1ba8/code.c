@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-     char a,b, c;
+     char a,b,c;
     scanf("%c %c",&a,&b);
     scanf("%c",&c);
     if(c==+){printf("%c",a+b);}
