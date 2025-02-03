@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main() {
-     char a,b,c;
-    scanf("%c %c",&a,&b);
+    int a,b;
+    char c;
+    scanf("%d %d",&a,&b);
     scanf("%c",&c);
-    if(c==+){printf("%c",a+b);}
-    else if(c == -){printf("%c",a-b);}
-    else if(c == *){printf("%c",a*b);}
-    else if(c == / && b!=0){printf("%c",a/b);}
+    if(c=='+'){printf("%d",a+b);}
+    else if(c == '-'){printf("%d",a-b);}
+    else if(c == '*'){printf("%d",a*b);}
+    else if(c =='/' && b!=0){printf("%d",a/b);}
     else{printf("Error");}
     return 0;
 }
