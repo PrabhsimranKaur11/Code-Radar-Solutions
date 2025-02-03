@@ -8,12 +8,12 @@ int main() {
     case '+':
     printf(a+b);
     case '-':
-    printf("%d",a-b);
+    printf(a-b);
     case '*':
-    printf("%d",a*b);
+    printf(a*b);
     case '/':
     if (b!= 0){
-    printf("%d",a/b);}
+    printf(a/b);}
     else{printf("error");}
     default:
     printf("error");
