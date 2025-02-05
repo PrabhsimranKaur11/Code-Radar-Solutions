@@ -2,6 +2,6 @@
 int main() {
     int a;
     scanf("%d",&a);
-    printf("%d", a<<31 & 1);
+     a<<31 & 1?printf("Set"):printf("Not Set");
     return 0;
 }
