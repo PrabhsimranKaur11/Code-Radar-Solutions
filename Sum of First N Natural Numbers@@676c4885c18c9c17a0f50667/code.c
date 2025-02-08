@@ -7,8 +7,9 @@ scanf("%d",&n);
  if(n>0){
  do{
 sum=sum+i;
-i++;}while(i<=n);
+i++;}while(i<=n);}
+else if(n=0 && i=0){
 printf("%d",sum);}
-else{printf("%d",sum==0);}
+
     return 0;
 }
