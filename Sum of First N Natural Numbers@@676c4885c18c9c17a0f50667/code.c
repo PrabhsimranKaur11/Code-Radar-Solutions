@@ -8,8 +8,8 @@ scanf("%d",&n);
  do{
 sum=sum+i;
 i++;}while(i<=n);}
-else if(n=0 && i=0){
-printf("%d",sum);}
+else if(n=0 && i=0)
+printf("%d",sum);
 
     return 0;
 }
