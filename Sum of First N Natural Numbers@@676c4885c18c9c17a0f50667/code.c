@@ -9,7 +9,7 @@ scanf("%d",&n);
 sum=sum+i;
 i++;}while(i<=n);
 printf("%d",sum);}
-else if(n=0 && i=0){
+else if(n==0 && i==0){
     printf("%d",sum==0);
 }
     return 0;
