@@ -3,7 +3,6 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-   int c == (a= a & a~(1<<b));
-   printf("%d",c);
+   printf("%d",a & a~(1<<b));
 return 0;
 }
