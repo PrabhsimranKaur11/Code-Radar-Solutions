@@ -1,8 +1,9 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-   printf("%d",a & a~(1<<b));
-return 0;
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    int c = a & ~(1 << b);
+    printf("%d", c);
+    return 0;
 }
