@@ -1,8 +1,6 @@
-#include <stdio.h>
-int main() {
+#include<stdio.h>
+int main(){
     int a,b;
-    scanf("%d %d",&a,&b);
-    a>b ? printf("%d",a):printf("%d",b);
-    
+    a<b?printf("%d",a):("%d",b);
     return 0;
 }
