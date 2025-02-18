@@ -1,10 +1,15 @@
-#include <stdio.h>
-int main() {
+#include<stdio.h>
+int main(){
     char a;
     scanf("%c",&a);
-    if(a=='R'){printf("Stop");}
-    else if(a=='G'){printf("Go");}
-    else if(a=='Y'){printf("Slow Down");}
-    else{printf("Invalid input");}
-    return 0;
+    switch(a){
+        case('R'):
+        printf("Stop");
+        case('G'):
+        printf("GO");
+        case('Y'):
+        printf("Slow Down");
+        default:
+        printf("Invalid input");
+    }
 }
