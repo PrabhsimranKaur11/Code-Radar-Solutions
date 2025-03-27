@@ -5,12 +5,8 @@ int fibonacciSeries(int n){
          int f = 0;
             int s =1;
             int t;
-        if(n<=0){
-            f=t;}
-        else{
             int t= f+s;
             f=s;
             s=t;}
-        printf("%d",t);
-    }
-}
+        printf("%d",t);}
+    
