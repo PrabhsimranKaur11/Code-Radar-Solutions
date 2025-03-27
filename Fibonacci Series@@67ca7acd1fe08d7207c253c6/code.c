@@ -8,4 +8,4 @@ int fibonacciSeries(int n){
       sum = i;
       int final = sum +i;
       printf("%d",final);
-}}
+}}}
