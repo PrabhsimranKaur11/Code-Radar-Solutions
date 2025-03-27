@@ -1,21 +1,17 @@
 #include<stdio.h>
-
-void fibonacciSeries(int n) {
-    int f = 0; // First number in the Fibonacci sequence
-    int s = 1; // Second number in the Fibonacci sequence
-    int t;     // Temporary variable for calculation
-
-    for (int i = 0; i < n; i++) {
-        if (i == 0) {
-            printf("%d ", f);
-        } else if (i == 1) {
-            printf("%d ", s);
-        } else {
-            t = f + s; // Sum of the previous two numbers
-            f = s;     // Update the first number
-            s = t;     // Update the second number
-            printf("%d ", t); // Print the current Fibonacci number
-        }
-    }
+void fibonaccciSeries(int n);
+void fibonacciSeries(int n){
+    int first=0;
+    int second=1;
+    int next;
+for(i=0;i<n;i++){
+    if(i==0){printf("%d",first);}
+    else if (i==1){printf("%d",second);}
+    else(
+        next = first +second;
+        first = second;
+        second = next;
+        printf("%d",next);
+    )
 }
-
+}
