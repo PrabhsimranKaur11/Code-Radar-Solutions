@@ -9,8 +9,8 @@ for(int i=0;i<n;i++){
     else if (i==1){printf("%d ",second);}
     else{
         next = first + second;
-        second=first;
-         next=second;
+        first = second;
+        second = next;
         printf("%d ", next);
     }
 }
