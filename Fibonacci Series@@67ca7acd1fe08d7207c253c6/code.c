@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
-int fibbo(n);
-int fibbo(n){
+int fibbo(int n);
+int fibbo(int n){
     if(n==0){return 0;}
     else{for(int i=0;i<=5;i++){printf(n + fibbo(n+1);)}
 }}
