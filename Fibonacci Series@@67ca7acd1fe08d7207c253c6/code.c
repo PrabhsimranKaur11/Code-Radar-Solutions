@@ -2,13 +2,13 @@
 int fibonacciSeries(int n);
 int fibonacciSeries(int n){
     for(int i=0;i<n;i++){
-        if(n<=0){return 0;}
-        else{
-            int f = 0;
+         int f = 0;
             int s =1;
+        if(n<=0){t=f;}
+        else{
             int t= f+s;
             f=s;
-            s=t;
+            s=t;}
         printf("%d",t);
-    }}
+    }
 }
