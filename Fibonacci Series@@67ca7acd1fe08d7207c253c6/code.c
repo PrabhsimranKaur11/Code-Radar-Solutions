@@ -9,7 +9,6 @@ int fibonacciSeries(int n){
             int t= f+s;
             f=s;
             s=t;
-        }
         printf("%d",t);
-    }
+    }}
 }
