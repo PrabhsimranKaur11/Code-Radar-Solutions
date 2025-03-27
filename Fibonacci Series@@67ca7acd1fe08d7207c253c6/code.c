@@ -6,6 +6,5 @@ int fibonacciSeries(int n){
     else{for(int i=0;i<n;i++){
         int sum = 0;
       sum = i;
-      sum= sum +i;
       printf("%d",sum);
 }}}
