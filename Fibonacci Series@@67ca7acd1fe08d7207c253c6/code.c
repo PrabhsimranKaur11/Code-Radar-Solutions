@@ -11,7 +11,7 @@ for(int i=0;i<n;i++){
         next = first + second;
         first = second;
         second = next;
-        printf("%d",next );
+        printf("%d", next);
     }
 }
 }
