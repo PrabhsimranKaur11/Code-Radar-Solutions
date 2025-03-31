@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         bubble(arr,n);
-        if(bubble(arr,n)){
+        if(bubble(arr,n)==1){
             printf("Sorted");
             break;
         }
