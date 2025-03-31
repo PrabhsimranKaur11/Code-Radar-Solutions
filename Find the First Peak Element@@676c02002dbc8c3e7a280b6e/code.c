@@ -26,5 +26,5 @@ int main(){
     for(int j=n;j>0;j--){
         printf("%d ",arr[0]);
     }
-   
 }
+return 0;}
