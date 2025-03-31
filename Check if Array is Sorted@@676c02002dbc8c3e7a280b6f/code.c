@@ -5,10 +5,10 @@ int bubble(int arr[],int n){
         if (arr[i] > arr[i + 1]) {
             return 0;
         }
-    }else if(arr[i]==arr[i+1]){
+    else if(arr[i]==arr[i+1]){
         printf("Sorted");
         break;
-    }
+    }}
     return 1; 
 }
 
