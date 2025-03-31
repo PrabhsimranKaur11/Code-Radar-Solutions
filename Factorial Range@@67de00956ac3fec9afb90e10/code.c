@@ -5,10 +5,9 @@ int factorialRange(int start,int end){
         if(i==0 || i==1){
             return 1;
         }
-        else{
-            int product = 0;
-            product = product * start;
-            printf("%d",product);
-        }
+      else{
+       return start * factorialRange(int start,int end-1);
+      }  
+        
     }
 }
