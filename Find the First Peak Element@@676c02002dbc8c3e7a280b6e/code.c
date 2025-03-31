@@ -11,6 +11,7 @@ void bubbleSort(int arr[], int n) {
             }
             if(arr[j]==arr[j+1]){
         printf("-1");
+        break;
         }
     }
 }}
