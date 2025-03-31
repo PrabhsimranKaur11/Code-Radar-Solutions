@@ -12,8 +12,8 @@ int factorialRange(int start,int end)
        }  
       printf("%d\n",fact);
     }
-    break;
-    if (start<1||end<1)
+
+    if else (start<1||end<1)
     {
         printf("Invalid range");
 }
