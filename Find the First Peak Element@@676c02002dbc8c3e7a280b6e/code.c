@@ -13,14 +13,6 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-// Function to print the array
-void printArray(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-}
-
 int main() {
     int n;
     scanf("%d", &n);
@@ -33,7 +25,7 @@ int main() {
 
     // Sort and print the array
     bubbleSort(arr, n);
-    printArray(arr, n);
+   printf("%d",arr[n-1]);
 
     return 0;
 }
