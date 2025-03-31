@@ -6,7 +6,7 @@ int factorialRange(int start,int end){
             return 1;
         }
       else{
-       return start * factorialRange(int start,int end-1);
+       return start * factorialRange( start, end-1);
       }  
         
     }
