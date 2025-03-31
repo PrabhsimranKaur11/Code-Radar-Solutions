@@ -14,11 +14,10 @@ int main(){
         bubble(arr,n);
         if(bubble(arr,n)==1){
             printf("Sorted");
-            break;
         }
         else if(bubble(arr,n)==0){
             printf("Not Sorted");
-            break;
         }
     }
+    return 0;
 }
