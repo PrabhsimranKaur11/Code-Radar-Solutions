@@ -9,6 +9,8 @@ void bubbleSort(int arr[], int n) {
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
             }
+            if(arr[j]==arr[j+1]){
+        printf('-1');
         }
     }
 }
@@ -25,9 +27,7 @@ int main() {
 
     // Sort and print the array
     bubbleSort(arr, n);
-    if(arr[j]==arr[j+1]){
-        printf('-1');
-    }
+    
    printf("%d",arr[n-1]);
 
     return 0;
