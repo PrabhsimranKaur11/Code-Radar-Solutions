@@ -8,6 +8,6 @@ int fibonacciSeries(int n){
         return 0;
     }
     if(n=1){
-        printf(" %d",'0 1');
+        printf("0 1");
     }
 }
