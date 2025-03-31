@@ -1,6 +1,6 @@
 
-int fibonnaciSeries(int n);
-int fibonnaciSeries(int n){
+int fibonacciSeries(int n);
+int fibonaccciSeries(int n){
     int first =0;
     int second =1;
     int next;
