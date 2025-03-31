@@ -1,6 +1,6 @@
 #include<stdio.h>
-int fibonacciSeries(n);
-int fibonacciSeries(n){
+int fibonacciSeries(int n);
+int fibonacciSeries(int n){
     int first =0;
     int second = 1;
     int final;
