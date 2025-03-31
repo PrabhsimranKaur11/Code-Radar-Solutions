@@ -16,7 +16,7 @@ int main(){
             printf("Sorted");
             break;
         }
-        else{
+        else if(bubble(arr,n)==0){
             printf("Not Sorted");
             break;
         }
