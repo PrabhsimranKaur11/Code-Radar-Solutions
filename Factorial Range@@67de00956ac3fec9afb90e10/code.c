@@ -13,7 +13,7 @@ else{
         for (int j = 1; j <= i; j++) {
             fact *= j; // Calculate factorial
         }
-        printf("%d\n", i, fact); // Print result
+        printf("Factorial of %d: %d\n", i, fact); // Print result
     }
 }}
 
