@@ -1,5 +1,4 @@
-int factorialRange(int start,int end)
-
+int factorialRange(int start,int end){
     int i,j;
     for(i=start;i<=end;i++)
     {
@@ -16,4 +15,4 @@ int factorialRange(int start,int end)
     if (start<1||end<1)
     {
         printf("Invalid range");
-    }
+    }}
