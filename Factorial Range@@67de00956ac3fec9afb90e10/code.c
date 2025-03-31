@@ -7,7 +7,7 @@ int factorialRange(int start,int end){
         }
         else{
             int product = 0;
-            product = product * i;
+            product = product * start;
             printf("%d",product);
         }
     }
