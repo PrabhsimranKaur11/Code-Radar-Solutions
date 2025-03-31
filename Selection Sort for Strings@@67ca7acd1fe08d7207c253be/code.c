@@ -1,4 +1,4 @@
-void selectionSort(arr[][100],int n)
+void selectionSort( char arr[][100],int n)
 {
     int i,j;
     for(i=0;i<n-1;i++)
@@ -14,7 +14,7 @@ void selectionSort(arr[][100],int n)
         }
     }
 }
-void printArray(arr[][100], int n)
+void printArray( char arr[][100], int n)
 {
     for(int j=0;j<n;j++)
     {
