@@ -1,32 +1,28 @@
-#include<stdio.h>
-int bubble(int arr[],int n);
-int bubble(int arr[],int n){
+#include <stdio.h>
+
+// Function to check if the array is sorted
+int isSorted(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         if (arr[i] > arr[i + 1]) {
-            return 0;
-        }
-    else if(arr[i]==arr[i+1]){
-        printf("Sorted");
-        return 1;
-    }}
-    return 1; 
-}
-
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-        bubble(arr,n);
-        if(bubble(arr,n)){
-            printf("Not Sorted");
-            break;
-        }
-        else{
-            printf("Sorted");
-            break;
+            return 0; // Not sorted
         }
     }
+    return 1; // Sorted
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    if (isSorted(arr, n)) {
+        printf("Sorted\n");
+    } else {
+        printf("Not Sorted\n");
+    }
+
     return 0;
 }
