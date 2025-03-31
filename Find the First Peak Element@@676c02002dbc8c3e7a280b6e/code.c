@@ -10,7 +10,7 @@ void bubbleSort(int arr[], int n) {
                 arr[j + 1] = temp;
             }
             if(arr[j]==arr[j+1]){
-        printf('-1');
+        printf("-1");
         }
     }
 }
