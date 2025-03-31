@@ -5,7 +5,7 @@ int fibonacciSeries(int n){
         int s = 1;
         int t;
         if(i<= 1){
-            i = f;
+            t = i;
         }
         else{
             t =f + s;
