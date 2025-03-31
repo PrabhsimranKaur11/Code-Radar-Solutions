@@ -6,7 +6,7 @@ void factorialRange(int start, int end) {
         printf("Invalid range\n");
         return;
     }
-
+else{
     // Loop to calculate and print factorials
     for (int i = start; i <= end; i++) {
         int fact = 1;
@@ -15,5 +15,5 @@ void factorialRange(int start, int end) {
         }
         printf("Factorial of %d: %d\n", i, fact); // Print result
     }
-}
+}}
 
