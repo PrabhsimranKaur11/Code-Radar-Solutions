@@ -15,9 +15,3 @@ void factorialRange(int start, int end) {
         printf("%d! = %d\n", i, fact); // Added factorial notation for clarity
     }
 }
-
-int main() {
-    int start = 1, end = 5; // Example range
-    factorialRange(start, end);
-    return 0;
-}
