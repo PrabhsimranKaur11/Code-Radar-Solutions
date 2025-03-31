@@ -13,7 +13,7 @@ void bubbleSort(int arr[], int n) {
         printf("-1");
         }
     }
-}
+}}
 
 int main() {
     int n;
