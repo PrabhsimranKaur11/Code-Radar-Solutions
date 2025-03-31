@@ -1,13 +1,14 @@
+
 #include<stdio.h>
-int fibonacciSeries(int n);
-int fibonacciSeries(int n){
-    int first =0;
-    int second = 1;
-    int final;
-    if(n=0){
-        return 0;
-    }
-    if(n=1){
-        printf("0 1");
-    }
-}
+int fibonnaci(int n);
+int fibonnaci(int n){
+    for (int i = 0; i < n; i++) {
+        if (i <= 1) {
+            next = i;
+        } else {
+            next = first + second;
+            first = second;
+            second = next;
+        }
+        printf("%d ", next);
+    }}
