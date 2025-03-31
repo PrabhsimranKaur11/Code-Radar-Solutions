@@ -12,6 +12,6 @@ int fibonacciSeries(int n){
             f = s;
             s = t;
         }
-        printf("%d ",f);
+        printf("%d ",t);
     }
 }
