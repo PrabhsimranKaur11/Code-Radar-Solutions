@@ -1,5 +1,4 @@
 
-#include<stdio.h>
 int fibonnaci(int n);
 int fibonnaci(int n){
     int first =0;
