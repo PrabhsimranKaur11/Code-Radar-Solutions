@@ -10,6 +10,7 @@ int bubble(int arr[],int n){
             }
         }
         printf("Sorted");
+        break;
 }
 else{printf("Not Sorted");}}
 int main(){
