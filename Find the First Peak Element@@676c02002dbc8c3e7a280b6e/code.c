@@ -9,7 +9,6 @@ int bubbleSort(int arr[], int n) {
  }
  }
  }
- return arr[n-1];
 }
 int main() {
     int n;
@@ -18,5 +17,6 @@ int main() {
  bubbleSort(arr, n);
  for (int i = 0; i < n; i++) {
 scanf("%d\n",&arr[i]);
+printf("%d",arr[n]);
  }
  return 0;}
