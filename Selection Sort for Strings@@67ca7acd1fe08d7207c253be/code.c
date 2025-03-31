@@ -1,4 +1,4 @@
-char[100] bubbleSort(char[100] arr[],int n)
+char[100] selectionSort(char[100] arr[],int n)
 {
     int i,j;
     for(i=0;i<n-1;i++)
