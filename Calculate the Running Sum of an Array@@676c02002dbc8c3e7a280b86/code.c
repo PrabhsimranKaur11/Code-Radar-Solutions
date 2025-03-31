@@ -5,7 +5,7 @@ int sum(int arr[],int n){
     for(int i =0;i<n;i++){
         sum+=arr[i];
         printf("%d ",sum);
-    }
+        return sum;    }
 }
 int main(){
     int n;
