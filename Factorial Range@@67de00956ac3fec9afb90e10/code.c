@@ -1,14 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int factorial(int n); // Function to compute factorial
-int factorialRange(int start, int end); // Function for factorial of a range
-
-// Function to calculate factorial of a single number
+// Iterative function to calculate factorial of a single number
 int factorial(int n) {
-    if (n == 0 || n == 1) {
-        return 1;
+    int result = 1;
+    for (int i = 1; i <= n; i++) {
+        result *= i;
     }
-    return n * factorial(n - 1);
+    return result;
 }
 
 // Function to calculate factorials for a range of numbers
@@ -19,3 +17,4 @@ int factorialRange(int start, int end) {
     }
     return result; // Return accumulated result
 }
+
