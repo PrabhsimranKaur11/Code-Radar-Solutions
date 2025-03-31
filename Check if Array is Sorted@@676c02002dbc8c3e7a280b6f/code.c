@@ -17,11 +17,11 @@ int main(){
         scanf("%d",&arr[i]);
         bubble(arr,n);
         if(bubble(arr,n)){
-            printf("Sorted");
+            printf("Not Sorted");
             break;
         }
         else{
-            printf("Not Sorted");
+            printf("Sorted");
             break;
         }
     }
