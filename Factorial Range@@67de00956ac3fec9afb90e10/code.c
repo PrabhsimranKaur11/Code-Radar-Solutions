@@ -20,3 +20,9 @@ int factorialRange(int start, int end) {
     return result; // Return accumulated result
 }
 
+// Example Usage
+int main() {
+    int start = 2, end = 4; // Define range
+    printf("Result: %d\n", factorialRange(start, end));
+    return 0;
+}
