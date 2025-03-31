@@ -8,8 +8,8 @@ int bubble(int arr[],int n){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
          }
-        }}
-        printf("Sorted");
+        }
+        printf("Sorted");}
 else{printf("Not Sorted");}}
 int main(){
     int n;
