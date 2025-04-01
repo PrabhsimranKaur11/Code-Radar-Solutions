@@ -14,12 +14,7 @@ int binarySearch(int arr[], int n, int target) {
     }
     return -1; // Element not found
 }
-
-int main() {
-    int arr[] = {1, 3, 5, 7, 9};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int target = 5;
-    int result = binarySearch(arr, n, target);
+    int result = binarySearch(arr, n, target){
     if (result != -1) {
         printf("%d\n", result);
     } else {
