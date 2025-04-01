@@ -18,7 +18,8 @@ int printArray(int arr[],int n){
         printf("%d",arr[j]);
   break;
     }
-    else{(printf("-1"));}}
+    else{printf("-1");
+    break;}}
 }
 int main(){
     int n;
