@@ -17,10 +17,6 @@ int printArray(int arr[],int n){
         printf("%d",arr[n-2]);
   break;}
     }
-    if(n==1){
-        printf("-1");
-
-}
 int main(){
     int n;
     scanf("%d",&n);
@@ -28,6 +24,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+     if(n==1){
+        printf("-1");
+
+}
 insertionSort(arr, n);
 printArray(arr,n);
 return 0;
