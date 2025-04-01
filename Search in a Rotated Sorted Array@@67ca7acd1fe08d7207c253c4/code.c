@@ -21,5 +21,5 @@ void handleResult(int arr[],int n ,int target){
     if(result!=-1){
         printf("%d\n",result);
     }
-    else if(result=-1){printf("-1");}
+    else if(result==-1){printf("-1");}
 }
