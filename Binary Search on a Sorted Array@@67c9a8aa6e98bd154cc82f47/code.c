@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Function to perform binary search
 int binarySearch(int arr[], int n, int target) {
     int left = 0, right = n - 1;
     while (left <= right) {
@@ -14,11 +15,13 @@ int binarySearch(int arr[], int n, int target) {
     }
     return -1; // Element not found
 }
-    int result = binarySearch(int arr,int n,int target){
+
+// Function to handle the result
+void handleResult(int arr[], int n, int target) {
+    int result = binarySearch(arr, n, target);
     if (result != -1) {
         printf("%d\n", result);
     } else {
-        printf("-1");
+        printf("-1\n");
     }
-    return 0;
 }
