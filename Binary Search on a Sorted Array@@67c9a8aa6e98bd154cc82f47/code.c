@@ -1,27 +1,23 @@
-#include <stdio.h>
-
-// Function to perform binary search
-int binarySearch(int arr[], int n, int target) {
-    int left = 0, right = n - 1;
-    while (left <= right) {
-        int mid = left + (right - left) / 2; // Avoid overflow
-        if (arr[mid] == target) {
-            return mid; // Element found
-        } else if (arr[mid] < target) {
-            left = mid + 1; // Search in the right half
-        } else {
-            right = mid - 1; // Search in the left half
-        }
+#include<stdio.h>
+int binarySearch(int arr,int n,int target){
+    int left=0;
+    int right=n-1;
+    while(left<=right){
+    int mid = left + right /2;
+    if(arr[mid]==target){
+        return mid;
     }
-    return -1; // Element not found
-}
-
-// Function to handle the result
-void handleResult(int arr[], int n, int target) {
-    int result = binarySearch(arr, n, target);
-    if (result != -1) {
-        printf("%d\n", result);
-    } else {
-        printf("-1\n");
+    else if(arr[mid]<target){
+        left+1;
+    }
+    else{
+        left-1;
+    }
+}return -1;}
+void result(int arr,int n,int target){
+    result =binarySearch(arr,n,target);
+    if(return!=-1){
+        printf("%d",result);
+        else{return -1;}
     }
 }
