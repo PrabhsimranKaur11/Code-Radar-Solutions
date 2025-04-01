@@ -17,7 +17,7 @@ int printArray(int arr[],int n){
         printf("%d",arr[n-2]);
   break;}
     }
-    if(n=1){
+    if(n==1){
         printf("-1");
 
 }
