@@ -12,7 +12,7 @@ int insertionSort(int arr[],int n){
 }
 int printArray(int arr[],int n){
     for(int j=0;j<n;j++){
-        printf("%d",arr[j]);
-        return 0;
+        printf("%d ",arr[j]);
+  
     }
 }
