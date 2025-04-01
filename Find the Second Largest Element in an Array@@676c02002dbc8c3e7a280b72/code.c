@@ -15,11 +15,11 @@ int insertionSort(int arr[],int n){
 int printArray(int arr[],int n){
     for(int j=0;j<n;j++){
         printf("%d",arr[n-2]);
-  break;
+  break};
     }
     if(n=1){
         printf("-1");
-    }
+
 }
 int main(){
     int n;
