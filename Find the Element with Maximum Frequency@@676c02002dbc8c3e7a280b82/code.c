@@ -26,7 +26,7 @@ int main() {
     for(int i=0;i<size;i++){
         scanf("%d",arr[i]);
     }
-    int size = sizeof(array) / sizeof(array[0]);
+   size = sizeof(array) / sizeof(array[0]);
 
     for (int i = 0; i < size; i++) {
         visited[i] = 0;
