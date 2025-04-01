@@ -14,11 +14,11 @@ else if(arr[0]>arr[1]){
 }
 for(int i=0;i<n,i++){
 if(arr[i]>arr[i-1]&&arr[i]>arr[i+1]){
-    printf("%d",arr[i]);
-}}
+printf("%d",arr[i]);
+}
 else if(arr[n]>arr[i-2]){
     printf("%d",arr[n]);
     return 0;
-}
+}}
 printf("-1");
 }
