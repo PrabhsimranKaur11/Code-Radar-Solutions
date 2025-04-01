@@ -1,19 +1,13 @@
-#include<stdio.h>
 
-// Function to compute the sum of digits of a number
-int sumOfDigits(int num) {
-    int sum = 0;
-    while (num != 0) {
-        sum += num % 10;
-        num /= 10;
-    }
-    return sum;
-}
-
-// Function to compute and print the sum of digits for all array elements
-void printSumOfDigits(int arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        printf("%d ",sumOfDigits(arr[i]));
+#include<Stdio.h>
+int sumofdigit(int num){
+   while(num!=0){ int sum =0;
+    sum+=num%10;
+    num/=10;
+}}
+void printdigits(int arr[],int n){
+    for(int i =0;i<n;i++){
+        printf("%d",sumofdigit(arr[i]));
     }
 }
 
@@ -26,7 +20,37 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printSumOfDigits(arr, n);
+    printdigits(arr, n);
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
