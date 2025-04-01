@@ -1,4 +1,4 @@
-int binarySearch(arr,n,target){
+int binarySearch(int arr,int n,int target){
     for(int i=0;i<n;i++){
         found=0;
          int result = i;
@@ -6,7 +6,7 @@ int binarySearch(arr,n,target){
             arr[i]==target;
             found=1;
         }
-        else{found=0;}
+        else{return 0;}
     }
     if(found){
         printf("%d",result);
