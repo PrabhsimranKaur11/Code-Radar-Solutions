@@ -10,7 +10,7 @@ int sumofdigit(int num){
 }}
 void printdigits(int arr[],int n){
     for(int i =0;i<n;i++){
-        printf("%d",sumofdigit(arr[i]));
+        printf("%d ",sumofdigit(arr[i]));
     }
 }
 
