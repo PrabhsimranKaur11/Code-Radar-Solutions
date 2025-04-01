@@ -1,5 +1,6 @@
 
-#include<Stdio.h>
+#include<stdio.h>
+int sumofdigit(int num);
 int sumofdigit(int num){
    while(num!=0){ int sum =0;
     sum+=num%10;
