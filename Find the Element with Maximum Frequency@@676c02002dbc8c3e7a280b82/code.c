@@ -24,7 +24,7 @@ int main() {
     scanf("%d",&size);
     int array[size];
     for(int i=0;i<size;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",array[i]);
     }
     int size = sizeof(array) / sizeof(array[0]);
 
