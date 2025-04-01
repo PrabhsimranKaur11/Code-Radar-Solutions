@@ -23,7 +23,7 @@ int main() {
     int size;
     scanf("%d",&size);
     int array[size];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<size;i++){
         scanf("%d",arr[i]);
     }
     int size = sizeof(array) / sizeof(array[0]);
