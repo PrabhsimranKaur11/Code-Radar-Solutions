@@ -20,7 +20,6 @@ void handleResult(int arr[],int n ,int target){
    int result = searchInRotatedArray(arr, n ,target);
     if(result!=-1){
         printf("%d\n",result);
-        break;
     }
     else{printf("-1");}
 }
