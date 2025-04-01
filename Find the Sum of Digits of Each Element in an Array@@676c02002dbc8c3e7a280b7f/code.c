@@ -2,9 +2,11 @@
 #include<stdio.h>
 int sumofdigit(int num);
 int sumofdigit(int num){
-   while(num!=0){ int sum =0;
+   while(num!=0){ 
+    int sum =0;
     sum+=num%10;
     num/=10;
+    return sum;
 }}
 void printdigits(int arr[],int n){
     for(int i =0;i<n;i++){
