@@ -1,6 +1,6 @@
 int binarySearch(int arr,int n,int target){
     for(int i=0;i<n;i++){
-        found=0;
+       int found=0;
          int result = i;
         if{
             arr[i]==target;
