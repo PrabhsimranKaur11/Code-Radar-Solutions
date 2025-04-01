@@ -21,9 +21,9 @@ int main() {
     }
 
     if (isPalindrome(array, n)) {
-        printf("Yes\n");
+        printf("YES\n");
     } else {
-        printf("No\n");
+        printf("NO\n");
     }
 
     return 0;
