@@ -14,8 +14,8 @@ int insertionSort(int arr[],int n){
 }
 int printArray(int arr[],int n){
     for(int j=0;j<n;j++){
-        if(arr[n-1]%2==0){
-        printf("%d",arr[n-1]);
+        if(arr[j]%2==0){
+        printf("%d",arr[j]);
   break;
     }
     else{printf("-1");
