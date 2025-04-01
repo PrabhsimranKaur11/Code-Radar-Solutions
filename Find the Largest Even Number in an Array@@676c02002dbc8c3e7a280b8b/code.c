@@ -18,6 +18,9 @@ int printArray(int arr[],int n){
         printf("%d",arr[n-1]);
   break;
     }
+    else  if(arr[n-2]%2==0){
+        printf("%d",arr[n-2]);
+        break;}
     else{printf("-1");
     break;}}
 }
