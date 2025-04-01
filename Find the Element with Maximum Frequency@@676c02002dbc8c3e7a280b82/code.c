@@ -22,9 +22,9 @@ void countFrequency(int arr[], int size) {
 int main() {
     int size;
     scanf("%d",&size);
-    int array[size];
+    int arr[size];
     for(int i=0;i<size;i++){
-        scanf("%d",array[i]);
+        scanf("%d",arr[i]);
     }
     int size = sizeof(array) / sizeof(array[0]);
 
@@ -32,6 +32,6 @@ int main() {
         visited[i] = 0;
     }
 
-    countFrequency(array, size);
+    countFrequency(arr, size);
     return 0;
 }
