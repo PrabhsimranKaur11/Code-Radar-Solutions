@@ -10,7 +10,7 @@ char insertionSort(char arr[],int n){
         }
     }
 }
-char printArray(chara arr[],int n){
+char printArray(char arr[],int n){
     for(int j=0;j<n;j++){
         printf("%c ",arr[j]);
   
