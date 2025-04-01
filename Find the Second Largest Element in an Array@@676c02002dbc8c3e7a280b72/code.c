@@ -25,7 +25,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
      if(n==1){
-        printf("-1\n");
+        printf("-1");
+        break;
 
 }
 insertionSort(arr, n);
