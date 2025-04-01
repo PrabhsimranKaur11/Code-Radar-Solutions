@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 void countFrequency(int arr[], int size) {
     int visited[size];
 
