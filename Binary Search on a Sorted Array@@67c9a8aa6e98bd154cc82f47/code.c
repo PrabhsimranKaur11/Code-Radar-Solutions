@@ -17,7 +17,7 @@ else{
     return -1;
 }
 void handleResult(int arr[],int n ,int target){
-    result = binarySearch(int arr[],int n ,int target);
+   int result = binarySearch(int arr[],int n ,int target);
     if(result!=-1){
         printf("%d\n",result);
     }
