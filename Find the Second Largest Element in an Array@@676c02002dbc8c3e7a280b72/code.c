@@ -26,11 +26,11 @@ int main(){
     }
      if(n==1){
         printf("-1");
-        break;
+
 
 }
 insertionSort(arr, n);
 printArray(arr,n);
-return 0;
+
 
 }
