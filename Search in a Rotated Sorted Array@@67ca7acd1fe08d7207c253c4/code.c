@@ -9,7 +9,7 @@ int searchInRotatedArray(int arr[],int n ,int target){
   }}
   int handle(int arr[],int n ,int target){
     int result =searchInRotatedArray(arr,n ,target);
-    if(result==found){
+    if(found){
         printf("%d",result);
     }
     return -1;
