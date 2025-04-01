@@ -13,10 +13,13 @@ int insertionSort(int arr[],int n){
     }
 }
 int printArray(int arr[],int n){
+     if(n==1){
+        printf("-1");}
+else{
     for(int j=0;j<n;j++){
         printf("%d",arr[n-2]);
   break;}
-    }
+    }}
 int main(){
     int n;
     scanf("%d",&n);
@@ -24,11 +27,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-     if(n==1){
-        printf("-1");
 
 
-}
 insertionSort(arr, n);
 printArray(arr,n);
 
